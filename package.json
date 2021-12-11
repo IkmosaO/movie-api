@@ -11,6 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
+    "lint": "npm run lint:pug && npm run lint:eslint",
+    "lint:eslint": "./node_modules/.bin/eslint --format codeframe .",
+    "dev": "./node_modules/.bin/nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
