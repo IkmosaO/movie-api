@@ -39,8 +39,6 @@ const saveNewMovie = (request, response) => {
   return response.status(201).send(newMovie)
 }
 
-// console.log(movies.filter((movie) => movie.directors.join(' ').toLowerCase().includes('joseph')))
-
 module.exports = {
   getAllMovies,
   getMoviesByTitle,
